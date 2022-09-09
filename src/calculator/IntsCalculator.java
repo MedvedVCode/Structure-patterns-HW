@@ -2,7 +2,7 @@ package calculator;
 
 public class IntsCalculator implements Ints {
 
-    protected Calculator calculator;
+    protected final Calculator calculator;
 
     public IntsCalculator() {
         this.calculator = new Calculator();
