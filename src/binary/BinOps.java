@@ -7,7 +7,7 @@ public class BinOps {
         return Integer.toBinaryString(argA * argB);
     }
 
-    public String sum(String a, String b){
+    public String sum(String a, String b) {
         int argA = Integer.parseInt(a, 2);
         int argB = Integer.parseInt(b, 2);
         return Integer.toBinaryString(argA + argB);
